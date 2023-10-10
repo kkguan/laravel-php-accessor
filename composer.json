@@ -1,0 +1,33 @@
+{
+    "name": "free2one/laravel-php-accessor",
+    "description": "PHP Accessor SDK for Laravel framework",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "laravel"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Laravel\\PhpAccessor\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^9.0|^10.0",
+        "illuminate/console": "^9.0|^10.0",
+        "free2one/php-accessor": "~0.4"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laravel\\PhpAccessor\\PhpAccessorProvider"
+            ]
+        }
+    }
+}
